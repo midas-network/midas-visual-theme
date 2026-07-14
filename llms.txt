@@ -1,0 +1,17 @@
+# MIDAS Visual Theme
+
+> Shared MIDAS design tokens for a blue-based visual theme. The repository emits CSS, SCSS, TypeScript, MUI theme options, and machine-readable JSON from DTCG token sources.
+
+## Tokens
+
+- [Resolved tokens JSON](https://midas-network.github.io/midas-visual-theme/tokens.resolved.json): flattened DTCG tokens with light and dark values resolved.
+- [MIDAS theme CSS](https://midas-network.github.io/midas-visual-theme/midas-theme.css): CSS custom properties for plain HTML, dashboards, D3, and Chart.js.
+- [MUI theme TypeScript](https://midas-network.github.io/midas-visual-theme/mui-theme.ts): `createTheme()`-ready light and dark theme factories with a `palette.chart` array.
+
+## Usage
+
+- The theme is deliberately blue-based.
+- Red is semantic-only and appears only in danger tokens.
+- Apps should read `--color-*`, `--chart-*`, or package exports; never copy raw hex values.
+- Categorical colours are assigned by entity, not by rank.
+- Do not use colour alone for meaning; pair colour with a label, icon, pattern, or text.
