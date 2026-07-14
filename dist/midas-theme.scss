@@ -1,0 +1,207 @@
+// GENERATED — do not edit. Edit tokens/ and run npm run build.
+@use "sass:map";
+
+$midas-blue-50: #f0f5fa !default;
+$midas-blue-100: #dbe8f4 !default;
+$midas-blue-200: #b4cde6 !default;
+$midas-blue-300: #83aad3 !default;
+$midas-blue-400: #5187be !default;
+$midas-blue-500: #2f6ba6 !default;
+$midas-blue-600: #205487 !default;
+$midas-blue-700: #17406a !default;
+$midas-blue-800: #102e4d !default;
+$midas-blue-900: #0b1f35 !default;
+$midas-teal-100: #d6f0ea !default;
+$midas-teal-400: #2bb6a3 !default;
+$midas-teal-500: #14958a !default;
+$midas-teal-600: #0c7570 !default;
+$midas-grey-0: #ffffff !default;
+$midas-grey-50: #f6f8fa !default;
+$midas-grey-100: #eef1f5 !default;
+$midas-grey-200: #dde3ea !default;
+$midas-grey-300: #c3ccd6 !default;
+$midas-grey-400: #9aa6b2 !default;
+$midas-grey-450: #616d79 !default;
+$midas-grey-500: #6b7885 !default;
+$midas-grey-600: #4a5560 !default;
+$midas-grey-700: #333c45 !default;
+$midas-grey-800: #20262d !default;
+$midas-grey-900: #12161b !default;
+$midas-danger: #c1352c !default;
+$midas-danger-bg: #fdecea !default;
+$midas-danger-text: #7a1f19 !default;
+$midas-warning: #b26a00 !default;
+$midas-warning-bg: #fdf3e2 !default;
+$midas-warning-text: #7a4900 !default;
+$midas-success: #1f7a4d !default;
+$midas-success-bg: #e8f5ee !default;
+$midas-success-text: #14543a !default;
+$midas-info: #205487 !default;
+$midas-info-bg: #e9f1f8 !default;
+$midas-info-text: #17406a !default;
+$midas-cat-1: #205487 !default;
+$midas-cat-2: #e69f00 !default;
+$midas-cat-3: #1f9d8b !default;
+$midas-cat-4: #cc6677 !default;
+$midas-cat-5: #56b4e9 !default;
+$midas-cat-6: #9467bd !default;
+$midas-cat-7: #5b9e3f !default;
+$midas-cat-8: #d55e00 !default;
+$midas-cat-9: #cc79a7 !default;
+$midas-cat-10: #b08c3e !default;
+$midas-cat-other: #6b7885 !default;
+$midas-seq-1: #eaf2fb !default;
+$midas-seq-2: #c6ddf1 !default;
+$midas-seq-3: #93bfe0 !default;
+$midas-seq-4: #5b9bcd !default;
+$midas-seq-5: #3178b4 !default;
+$midas-seq-6: #1d5893 !default;
+$midas-seq-7: #0f3a63 !default;
+$midas-div-1: #a3510a !default;
+$midas-div-2: #dd8b3a !default;
+$midas-div-3: #f3c58f !default;
+$midas-div-4: #eef0f2 !default;
+$midas-div-5: #a6c6e2 !default;
+$midas-div-6: #4d89bf !default;
+$midas-div-7: #164a80 !default;
+$color-bg: #f6f8fa !default;
+$color-surface: #ffffff !default;
+$color-surface-alt: #eef1f5 !default;
+$color-border: #dde3ea !default;
+$color-border-strong: #7c8996 !default;
+$color-text: #12161b !default;
+$color-text-muted: #616d79 !default;
+$color-text-inverse: #ffffff !default;
+$color-primary: #205487 !default;
+$color-primary-hover: #17406a !default;
+$color-primary-active: #102e4d !default;
+$color-primary-contrast: #ffffff !default;
+$color-secondary: #14958a !default;
+$color-secondary-hover: #0c7570 !default;
+$color-link: #205487 !default;
+$color-link-hover: #17406a !default;
+$color-focus-ring: #5187be !default;
+$color-selection: #dbe8f4 !default;
+$color-danger: #c1352c !default;
+$color-danger-bg: #fdecea !default;
+$color-danger-text: #7a1f19 !default;
+$color-warning: #b26a00 !default;
+$color-warning-bg: #fdf3e2 !default;
+$color-warning-text: #7a4900 !default;
+$color-success: #1f7a4d !default;
+$color-success-bg: #e8f5ee !default;
+$color-success-text: #14543a !default;
+$color-info: #205487 !default;
+$color-info-bg: #e9f1f8 !default;
+$color-info-text: #17406a !default;
+$color-header-bg: #ffffff !default;
+$color-header-accent: #205487 !default;
+$chart-surface: #ffffff !default;
+$chart-gridline: #dde3ea !default;
+$chart-axis: #c3ccd6 !default;
+$chart-ink: #12161b !default;
+$chart-ink-muted: #6b7885 !default;
+$font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
+$font-mono: "JetBrains Mono", "SF Mono", ui-monospace, "Cascadia Code", Consolas, monospace !default;
+$num-tabular: "tnum" 1, "lnum" 1 !default;
+$radius-sm: 4px !default;
+$radius-md: 8px !default;
+$radius-lg: 12px !default;
+$radius-pill: 999px !default;
+$space-1: 4px !default;
+$space-2: 8px !default;
+$space-3: 12px !default;
+$space-4: 16px !default;
+$space-5: 24px !default;
+$space-6: 32px !default;
+$shadow-sm: 0 1px 2px rgba(11,31,53,0.06), 0 1px 3px rgba(11,31,53,0.08) !default;
+$shadow-md: 0 2px 6px rgba(11,31,53,0.08), 0 6px 16px rgba(11,31,53,0.10) !default;
+$border-hairline: 0.5px solid #dde3ea !default;
+
+$midas-theme-dark: (
+  "color-bg": #0c1a2b,
+  "color-surface": #12263c,
+  "color-surface-alt": #17304a,
+  "color-border": #274462,
+  "color-border-strong": #547a9e,
+  "color-text": #e7edf3,
+  "color-text-muted": #9fb2c4,
+  "color-text-inverse": #08131f,
+  "color-primary": #4e8bc0,
+  "color-primary-hover": #6ba0cf,
+  "color-primary-active": #83aad3,
+  "color-primary-contrast": #08131f,
+  "color-secondary": #2bb6a3,
+  "color-secondary-hover": #4fc9b8,
+  "color-link": #7fb0dd,
+  "color-link-hover": #a3c6e6,
+  "color-focus-ring": #6ba0cf,
+  "color-selection": #1c3a5a,
+  "color-danger": #e06a60,
+  "color-danger-bg": #3a1a17,
+  "color-danger-text": #f2b8b2,
+  "color-warning": #e0a34a,
+  "color-warning-bg": #3a2a10,
+  "color-warning-text": #f2d3a0,
+  "color-success": #4fb07d,
+  "color-success-bg": #123a29,
+  "color-success-text": #a8dcc0,
+  "color-info": #4e8bc0,
+  "color-info-bg": #14324f,
+  "color-info-text": #a6c6e2,
+  "color-header-bg": #12263c,
+  "color-header-accent": #4e8bc0,
+  "chart-surface": #12263c,
+  "chart-gridline": #24405f,
+  "chart-axis": #375b7e,
+  "chart-ink": #e7edf3,
+  "chart-ink-muted": #9fb2c4,
+  "midas-cat-1": #5187be,
+  "midas-cat-other": #8a97a5,
+  "shadow-sm": 0 1px 2px rgba(0,0,0,0.35), 0 1px 3px rgba(0,0,0,0.35),
+  "shadow-md": 0 2px 6px rgba(0,0,0,0.45), 0 6px 16px rgba(0,0,0,0.45)
+) !default;
+
+@mixin midas-theme-dark {
+  --color-bg: #{map.get($midas-theme-dark, "color-bg")};
+  --color-surface: #{map.get($midas-theme-dark, "color-surface")};
+  --color-surface-alt: #{map.get($midas-theme-dark, "color-surface-alt")};
+  --color-border: #{map.get($midas-theme-dark, "color-border")};
+  --color-border-strong: #{map.get($midas-theme-dark, "color-border-strong")};
+  --color-text: #{map.get($midas-theme-dark, "color-text")};
+  --color-text-muted: #{map.get($midas-theme-dark, "color-text-muted")};
+  --color-text-inverse: #{map.get($midas-theme-dark, "color-text-inverse")};
+  --color-primary: #{map.get($midas-theme-dark, "color-primary")};
+  --color-primary-hover: #{map.get($midas-theme-dark, "color-primary-hover")};
+  --color-primary-active: #{map.get($midas-theme-dark, "color-primary-active")};
+  --color-primary-contrast: #{map.get($midas-theme-dark, "color-primary-contrast")};
+  --color-secondary: #{map.get($midas-theme-dark, "color-secondary")};
+  --color-secondary-hover: #{map.get($midas-theme-dark, "color-secondary-hover")};
+  --color-link: #{map.get($midas-theme-dark, "color-link")};
+  --color-link-hover: #{map.get($midas-theme-dark, "color-link-hover")};
+  --color-focus-ring: #{map.get($midas-theme-dark, "color-focus-ring")};
+  --color-selection: #{map.get($midas-theme-dark, "color-selection")};
+  --color-danger: #{map.get($midas-theme-dark, "color-danger")};
+  --color-danger-bg: #{map.get($midas-theme-dark, "color-danger-bg")};
+  --color-danger-text: #{map.get($midas-theme-dark, "color-danger-text")};
+  --color-warning: #{map.get($midas-theme-dark, "color-warning")};
+  --color-warning-bg: #{map.get($midas-theme-dark, "color-warning-bg")};
+  --color-warning-text: #{map.get($midas-theme-dark, "color-warning-text")};
+  --color-success: #{map.get($midas-theme-dark, "color-success")};
+  --color-success-bg: #{map.get($midas-theme-dark, "color-success-bg")};
+  --color-success-text: #{map.get($midas-theme-dark, "color-success-text")};
+  --color-info: #{map.get($midas-theme-dark, "color-info")};
+  --color-info-bg: #{map.get($midas-theme-dark, "color-info-bg")};
+  --color-info-text: #{map.get($midas-theme-dark, "color-info-text")};
+  --color-header-bg: #{map.get($midas-theme-dark, "color-header-bg")};
+  --color-header-accent: #{map.get($midas-theme-dark, "color-header-accent")};
+  --chart-surface: #{map.get($midas-theme-dark, "chart-surface")};
+  --chart-gridline: #{map.get($midas-theme-dark, "chart-gridline")};
+  --chart-axis: #{map.get($midas-theme-dark, "chart-axis")};
+  --chart-ink: #{map.get($midas-theme-dark, "chart-ink")};
+  --chart-ink-muted: #{map.get($midas-theme-dark, "chart-ink-muted")};
+  --midas-cat-1: #{map.get($midas-theme-dark, "midas-cat-1")};
+  --midas-cat-other: #{map.get($midas-theme-dark, "midas-cat-other")};
+  --shadow-sm: #{map.get($midas-theme-dark, "shadow-sm")};
+  --shadow-md: #{map.get($midas-theme-dark, "shadow-md")};
+}

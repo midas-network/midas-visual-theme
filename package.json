@@ -1,0 +1,49 @@
+{
+  "name": "@midasnetwork/tokens",
+  "version": "0.1.0",
+  "description": "MIDAS visual theme design tokens and generated consumable artifacts.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "private": false,
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "scripts": {
+    "build": "style-dictionary build --config config/style-dictionary.config.js && npm run test:contrast",
+    "docs": "node scripts/build-docs.mjs",
+    "test:contrast": "node scripts/contrast.mjs",
+    "prepare:site": "npm run build && npm run docs"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/tokens.ts",
+      "default": "./dist/tokens.ts"
+    },
+    "./css": "./dist/midas-theme.css",
+    "./scss": "./dist/midas-theme.scss",
+    "./mui": "./dist/mui-theme.ts",
+    "./tokens": "./dist/tokens.resolved.json"
+  },
+  "files": [
+    "dist",
+    "tokens",
+    "README.md",
+    "LICENSE",
+    "AGENTS.md",
+    "llms.txt"
+  ],
+  "peerDependencies": {
+    "@mui/material": ">=5"
+  },
+  "peerDependenciesMeta": {
+    "@mui/material": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

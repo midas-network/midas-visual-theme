@@ -1,0 +1,331 @@
+{
+  "midas": {
+    "blue": {
+      "50": {
+        "$value": "#f0f5fa",
+        "$type": "color",
+        "$description": "MIDAS blue 50, the lightest blue for subtle chrome and backgrounds."
+      },
+      "100": {
+        "$value": "#dbe8f4",
+        "$type": "color",
+        "$description": "MIDAS blue 100 for light selections and low-emphasis blue surfaces."
+      },
+      "200": {
+        "$value": "#b4cde6",
+        "$type": "color",
+        "$description": "MIDAS blue 200 for pale brand accents."
+      },
+      "300": {
+        "$value": "#83aad3",
+        "$type": "color",
+        "$description": "MIDAS blue 300 for medium-light brand accents."
+      },
+      "400": {
+        "$value": "#5187be",
+        "$type": "color",
+        "$description": "MIDAS blue 400 for focus rings and accessible accents."
+      },
+      "500": {
+        "$value": "#2f6ba6",
+        "$type": "color",
+        "$description": "MIDAS blue 500 for primary brand colour."
+      },
+      "600": {
+        "$value": "#205487",
+        "$type": "color",
+        "$description": "MIDAS blue 600 for light-mode primary actions and links."
+      },
+      "700": {
+        "$value": "#17406a",
+        "$type": "color",
+        "$description": "MIDAS blue 700 for light-mode primary hover states."
+      },
+      "800": {
+        "$value": "#102e4d",
+        "$type": "color",
+        "$description": "MIDAS blue 800 for light-mode active states and deep chrome."
+      },
+      "900": {
+        "$value": "#0b1f35",
+        "$type": "color",
+        "$description": "MIDAS blue 900 for the deepest brand navy."
+      }
+    },
+    "teal": {
+      "100": {
+        "$value": "#d6f0ea",
+        "$type": "color",
+        "$description": "MIDAS teal 100 for pale secondary accents."
+      },
+      "400": {
+        "$value": "#2bb6a3",
+        "$type": "color",
+        "$description": "MIDAS teal 400 for dark-mode secondary actions."
+      },
+      "500": {
+        "$value": "#14958a",
+        "$type": "color",
+        "$description": "MIDAS teal 500 for light-mode secondary actions."
+      },
+      "600": {
+        "$value": "#0c7570",
+        "$type": "color",
+        "$description": "MIDAS teal 600 for secondary hover states."
+      }
+    },
+    "grey": {
+      "0": {
+        "$value": "#ffffff",
+        "$type": "color",
+        "$description": "White neutral for surfaces and inverse text."
+      },
+      "50": {
+        "$value": "#f6f8fa",
+        "$type": "color",
+        "$description": "Cool grey 50 for light-mode page backgrounds."
+      },
+      "100": {
+        "$value": "#eef1f5",
+        "$type": "color",
+        "$description": "Cool grey 100 for alternate light-mode surfaces."
+      },
+      "200": {
+        "$value": "#dde3ea",
+        "$type": "color",
+        "$description": "Cool grey 200 for decorative hairlines and gridlines."
+      },
+      "300": {
+        "$value": "#c3ccd6",
+        "$type": "color",
+        "$description": "Cool grey 300 for low-emphasis axes and separators."
+      },
+      "400": {
+        "$value": "#9aa6b2",
+        "$type": "color",
+        "$description": "Cool grey 400 for disabled or subdued UI."
+      },
+      "450": {
+        "$value": "#616d79",
+        "$type": "color",
+        "$description": "Muted text grey tuned to clear AA on grey 50."
+      },
+      "500": {
+        "$value": "#6b7885",
+        "$type": "color",
+        "$description": "Cool grey 500 for neutral chart and fallback colour."
+      },
+      "600": {
+        "$value": "#4a5560",
+        "$type": "color",
+        "$description": "Cool grey 600 for strong muted neutral elements."
+      },
+      "700": {
+        "$value": "#333c45",
+        "$type": "color",
+        "$description": "Cool grey 700 for dark neutral UI."
+      },
+      "800": {
+        "$value": "#20262d",
+        "$type": "color",
+        "$description": "Cool grey 800 for near-black surfaces."
+      },
+      "900": {
+        "$value": "#12161b",
+        "$type": "color",
+        "$description": "Cool grey 900 for primary light-mode text."
+      }
+    },
+    "danger": {
+      "$value": "#c1352c",
+      "$type": "color",
+      "$description": "Semantic danger colour. Red appears only in semantic danger roles."
+    },
+    "danger-bg": {
+      "$value": "#fdecea",
+      "$type": "color",
+      "$description": "Light danger background for alerts and validation."
+    },
+    "danger-text": {
+      "$value": "#7a1f19",
+      "$type": "color",
+      "$description": "Danger text colour that contrasts with danger background."
+    },
+    "warning": {
+      "$value": "#b26a00",
+      "$type": "color",
+      "$description": "Semantic warning colour."
+    },
+    "warning-bg": {
+      "$value": "#fdf3e2",
+      "$type": "color",
+      "$description": "Light warning background for status panels."
+    },
+    "warning-text": {
+      "$value": "#7a4900",
+      "$type": "color",
+      "$description": "Warning text colour that contrasts with warning background."
+    },
+    "success": {
+      "$value": "#1f7a4d",
+      "$type": "color",
+      "$description": "Semantic success colour."
+    },
+    "success-bg": {
+      "$value": "#e8f5ee",
+      "$type": "color",
+      "$description": "Light success background for positive states."
+    },
+    "success-text": {
+      "$value": "#14543a",
+      "$type": "color",
+      "$description": "Success text colour that contrasts with success background."
+    },
+    "info": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "Semantic info colour aligned to MIDAS blue."
+    },
+    "info-bg": {
+      "$value": "#e9f1f8",
+      "$type": "color",
+      "$description": "Light info background for informational panels."
+    },
+    "info-text": {
+      "$value": "#17406a",
+      "$type": "color",
+      "$description": "Info text colour that contrasts with info background."
+    },
+    "cat": {
+      "1": {
+        "$value": "#205487",
+        "$type": "color",
+        "$description": "Categorical slot 1. Assign categorical colours by entity, never rank."
+      },
+      "2": {
+        "$value": "#e69f00",
+        "$type": "color",
+        "$description": "Categorical slot 2. Assign categorical colours by entity, never rank."
+      },
+      "3": {
+        "$value": "#1f9d8b",
+        "$type": "color",
+        "$description": "Categorical slot 3. Assign categorical colours by entity, never rank."
+      },
+      "4": {
+        "$value": "#cc6677",
+        "$type": "color",
+        "$description": "Categorical slot 4. Assign categorical colours by entity, never rank."
+      },
+      "5": {
+        "$value": "#56b4e9",
+        "$type": "color",
+        "$description": "Categorical slot 5. Assign categorical colours by entity, never rank."
+      },
+      "6": {
+        "$value": "#9467bd",
+        "$type": "color",
+        "$description": "Categorical slot 6. Assign categorical colours by entity, never rank."
+      },
+      "7": {
+        "$value": "#5b9e3f",
+        "$type": "color",
+        "$description": "Categorical slot 7. Assign categorical colours by entity, never rank."
+      },
+      "8": {
+        "$value": "#d55e00",
+        "$type": "color",
+        "$description": "Categorical slot 8. Assign categorical colours by entity, never rank."
+      },
+      "9": {
+        "$value": "#cc79a7",
+        "$type": "color",
+        "$description": "Categorical slot 9. Assign categorical colours by entity, never rank."
+      },
+      "10": {
+        "$value": "#b08c3e",
+        "$type": "color",
+        "$description": "Categorical slot 10. Assign categorical colours by entity, never rank."
+      },
+      "other": {
+        "$value": "#6b7885",
+        "$type": "color",
+        "$description": "Categorical fallback. Past slot 10, fold the tail into cat-other."
+      }
+    },
+    "seq": {
+      "1": {
+        "$value": "#eaf2fb",
+        "$type": "color",
+        "$description": "Sequential ramp step 1, low value."
+      },
+      "2": {
+        "$value": "#c6ddf1",
+        "$type": "color",
+        "$description": "Sequential ramp step 2."
+      },
+      "3": {
+        "$value": "#93bfe0",
+        "$type": "color",
+        "$description": "Sequential ramp step 3."
+      },
+      "4": {
+        "$value": "#5b9bcd",
+        "$type": "color",
+        "$description": "Sequential ramp step 4."
+      },
+      "5": {
+        "$value": "#3178b4",
+        "$type": "color",
+        "$description": "Sequential ramp step 5."
+      },
+      "6": {
+        "$value": "#1d5893",
+        "$type": "color",
+        "$description": "Sequential ramp step 6."
+      },
+      "7": {
+        "$value": "#0f3a63",
+        "$type": "color",
+        "$description": "Sequential ramp step 7, high value."
+      }
+    },
+    "div": {
+      "1": {
+        "$value": "#a3510a",
+        "$type": "color",
+        "$description": "Diverging ramp step 1, orange endpoint."
+      },
+      "2": {
+        "$value": "#dd8b3a",
+        "$type": "color",
+        "$description": "Diverging ramp step 2, orange side."
+      },
+      "3": {
+        "$value": "#f3c58f",
+        "$type": "color",
+        "$description": "Diverging ramp step 3, light orange side."
+      },
+      "4": {
+        "$value": "#eef0f2",
+        "$type": "color",
+        "$description": "Diverging ramp neutral midpoint; never a hue."
+      },
+      "5": {
+        "$value": "#a6c6e2",
+        "$type": "color",
+        "$description": "Diverging ramp step 5, light blue side."
+      },
+      "6": {
+        "$value": "#4d89bf",
+        "$type": "color",
+        "$description": "Diverging ramp step 6, blue side."
+      },
+      "7": {
+        "$value": "#164a80",
+        "$type": "color",
+        "$description": "Diverging ramp step 7, blue endpoint."
+      }
+    }
+  }
+}

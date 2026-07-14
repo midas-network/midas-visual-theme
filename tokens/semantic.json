@@ -1,0 +1,283 @@
+{
+  "color": {
+    "bg": {
+      "$value": "{midas.grey.50}",
+      "$type": "color",
+      "$description": "Page background colour."
+    },
+    "surface": {
+      "$value": "{midas.grey.0}",
+      "$type": "color",
+      "$description": "Default panel and card surface."
+    },
+    "surface-alt": {
+      "$value": "{midas.grey.100}",
+      "$type": "color",
+      "$description": "Alternate surface for subtle grouping."
+    },
+    "border": {
+      "$value": "{midas.grey.200}",
+      "$type": "color",
+      "$description": "Decorative hairline border. Exempt from contrast gating."
+    },
+    "border-strong": {
+      "$value": "#7c8996",
+      "$type": "color",
+      "$description": "Control outline border that meets UI contrast."
+    },
+    "text": {
+      "$value": "{midas.grey.900}",
+      "$type": "color",
+      "$description": "Primary text colour."
+    },
+    "text-muted": {
+      "$value": "{midas.grey.450}",
+      "$type": "color",
+      "$description": "Muted text colour tuned for AA contrast."
+    },
+    "text-inverse": {
+      "$value": "{midas.grey.0}",
+      "$type": "color",
+      "$description": "Text on dark or saturated backgrounds."
+    },
+    "primary": {
+      "$value": "{midas.blue.600}",
+      "$type": "color",
+      "$description": "Primary action and brand role."
+    },
+    "primary-hover": {
+      "$value": "{midas.blue.700}",
+      "$type": "color",
+      "$description": "Primary action hover state."
+    },
+    "primary-active": {
+      "$value": "{midas.blue.800}",
+      "$type": "color",
+      "$description": "Primary action active state."
+    },
+    "primary-contrast": {
+      "$value": "{midas.grey.0}",
+      "$type": "color",
+      "$description": "Text or icon colour on primary backgrounds."
+    },
+    "secondary": {
+      "$value": "{midas.teal.500}",
+      "$type": "color",
+      "$description": "Secondary action role."
+    },
+    "secondary-hover": {
+      "$value": "{midas.teal.600}",
+      "$type": "color",
+      "$description": "Secondary action hover state."
+    },
+    "link": {
+      "$value": "{midas.blue.600}",
+      "$type": "color",
+      "$description": "Default link colour."
+    },
+    "link-hover": {
+      "$value": "{midas.blue.700}",
+      "$type": "color",
+      "$description": "Link hover colour."
+    },
+    "focus-ring": {
+      "$value": "{midas.blue.400}",
+      "$type": "color",
+      "$description": "Visible focus indicator."
+    },
+    "selection": {
+      "$value": "{midas.blue.100}",
+      "$type": "color",
+      "$description": "Selection highlight colour."
+    },
+    "danger": {
+      "$value": "{midas.danger}",
+      "$type": "color",
+      "$description": "Danger semantic role."
+    },
+    "danger-bg": {
+      "$value": "{midas.danger-bg}",
+      "$type": "color",
+      "$description": "Danger background role."
+    },
+    "danger-text": {
+      "$value": "{midas.danger-text}",
+      "$type": "color",
+      "$description": "Danger text role."
+    },
+    "warning": {
+      "$value": "{midas.warning}",
+      "$type": "color",
+      "$description": "Warning semantic role."
+    },
+    "warning-bg": {
+      "$value": "{midas.warning-bg}",
+      "$type": "color",
+      "$description": "Warning background role."
+    },
+    "warning-text": {
+      "$value": "{midas.warning-text}",
+      "$type": "color",
+      "$description": "Warning text role."
+    },
+    "success": {
+      "$value": "{midas.success}",
+      "$type": "color",
+      "$description": "Success semantic role."
+    },
+    "success-bg": {
+      "$value": "{midas.success-bg}",
+      "$type": "color",
+      "$description": "Success background role."
+    },
+    "success-text": {
+      "$value": "{midas.success-text}",
+      "$type": "color",
+      "$description": "Success text role."
+    },
+    "info": {
+      "$value": "{midas.info}",
+      "$type": "color",
+      "$description": "Info semantic role."
+    },
+    "info-bg": {
+      "$value": "{midas.info-bg}",
+      "$type": "color",
+      "$description": "Info background role."
+    },
+    "info-text": {
+      "$value": "{midas.info-text}",
+      "$type": "color",
+      "$description": "Info text role."
+    },
+    "header-bg": {
+      "$value": "{color.surface}",
+      "$type": "color",
+      "$description": "Header background role."
+    },
+    "header-accent": {
+      "$value": "{midas.blue.600}",
+      "$type": "color",
+      "$description": "Header accent rule or mark."
+    }
+  },
+  "chart": {
+    "surface": {
+      "$value": "{midas.grey.0}",
+      "$type": "color",
+      "$description": "Chart plotting surface."
+    },
+    "gridline": {
+      "$value": "{midas.grey.200}",
+      "$type": "color",
+      "$description": "Recessive chart gridline; intentionally not contrast-gated."
+    },
+    "axis": {
+      "$value": "{midas.grey.300}",
+      "$type": "color",
+      "$description": "Recessive chart axis; intentionally not contrast-gated."
+    },
+    "ink": {
+      "$value": "{midas.grey.900}",
+      "$type": "color",
+      "$description": "Chart label ink."
+    },
+    "ink-muted": {
+      "$value": "{midas.grey.500}",
+      "$type": "color",
+      "$description": "Muted chart label ink."
+    }
+  },
+  "font": {
+    "sans": {
+      "$value": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "$type": "fontFamily",
+      "$description": "MIDAS sans-serif font stack."
+    },
+    "mono": {
+      "$value": "\"JetBrains Mono\", \"SF Mono\", ui-monospace, \"Cascadia Code\", Consolas, monospace",
+      "$type": "fontFamily",
+      "$description": "MIDAS monospace font stack."
+    }
+  },
+  "num": {
+    "tabular": {
+      "$value": "\"tnum\" 1, \"lnum\" 1",
+      "$type": "fontFeatureSettings",
+      "$description": "Font feature settings for tabular lining figures."
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Small radius."
+    },
+    "md": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Medium radius."
+    },
+    "lg": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Large radius."
+    },
+    "pill": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$description": "Pill radius."
+    }
+  },
+  "space": {
+    "1": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing step 1."
+    },
+    "2": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing step 2."
+    },
+    "3": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing step 3."
+    },
+    "4": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing step 4."
+    },
+    "5": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing step 5."
+    },
+    "6": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing step 6."
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$value": "0 1px 2px rgba(11,31,53,0.06), 0 1px 3px rgba(11,31,53,0.08)",
+      "$type": "shadow",
+      "$description": "Small elevation shadow."
+    },
+    "md": {
+      "$value": "0 2px 6px rgba(11,31,53,0.08), 0 6px 16px rgba(11,31,53,0.10)",
+      "$type": "shadow",
+      "$description": "Medium elevation shadow."
+    }
+  },
+  "border": {
+    "hairline": {
+      "$value": "0.5px solid {color.border}",
+      "$type": "border",
+      "$description": "Decorative hairline border."
+    }
+  }
+}

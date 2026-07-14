@@ -1,0 +1,1773 @@
+{
+  "$comment": "GENERATED — do not edit. Edit tokens/ and run npm run build.",
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "@midasnetwork/tokens",
+  "version": "0.1.0",
+  "description": "MIDAS visual theme tokens resolved from DTCG source files.",
+  "light": {
+    "midas.blue.50": {
+      "$value": "#f0f5fa",
+      "$type": "color",
+      "$description": "MIDAS blue 50, the lightest blue for subtle chrome and backgrounds.",
+      "cssVariable": "--midas-blue-50"
+    },
+    "midas.blue.100": {
+      "$value": "#dbe8f4",
+      "$type": "color",
+      "$description": "MIDAS blue 100 for light selections and low-emphasis blue surfaces.",
+      "cssVariable": "--midas-blue-100"
+    },
+    "midas.blue.200": {
+      "$value": "#b4cde6",
+      "$type": "color",
+      "$description": "MIDAS blue 200 for pale brand accents.",
+      "cssVariable": "--midas-blue-200"
+    },
+    "midas.blue.300": {
+      "$value": "#83aad3",
+      "$type": "color",
+      "$description": "MIDAS blue 300 for medium-light brand accents.",
+      "cssVariable": "--midas-blue-300"
+    },
+    "midas.blue.400": {
+      "$value": "#5187be",
+      "$type": "color",
+      "$description": "MIDAS blue 400 for focus rings and accessible accents.",
+      "cssVariable": "--midas-blue-400"
+    },
+    "midas.blue.500": {
+      "$value": "#2f6ba6",
+      "$type": "color",
+      "$description": "MIDAS blue 500 for primary brand colour.",
+      "cssVariable": "--midas-blue-500"
+    },
+    "midas.blue.600": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "MIDAS blue 600 for light-mode primary actions and links.",
+      "cssVariable": "--midas-blue-600"
+    },
+    "midas.blue.700": {
+      "$value": "#17406a",
+      "$type": "color",
+      "$description": "MIDAS blue 700 for light-mode primary hover states.",
+      "cssVariable": "--midas-blue-700"
+    },
+    "midas.blue.800": {
+      "$value": "#102e4d",
+      "$type": "color",
+      "$description": "MIDAS blue 800 for light-mode active states and deep chrome.",
+      "cssVariable": "--midas-blue-800"
+    },
+    "midas.blue.900": {
+      "$value": "#0b1f35",
+      "$type": "color",
+      "$description": "MIDAS blue 900 for the deepest brand navy.",
+      "cssVariable": "--midas-blue-900"
+    },
+    "midas.teal.100": {
+      "$value": "#d6f0ea",
+      "$type": "color",
+      "$description": "MIDAS teal 100 for pale secondary accents.",
+      "cssVariable": "--midas-teal-100"
+    },
+    "midas.teal.400": {
+      "$value": "#2bb6a3",
+      "$type": "color",
+      "$description": "MIDAS teal 400 for dark-mode secondary actions.",
+      "cssVariable": "--midas-teal-400"
+    },
+    "midas.teal.500": {
+      "$value": "#14958a",
+      "$type": "color",
+      "$description": "MIDAS teal 500 for light-mode secondary actions.",
+      "cssVariable": "--midas-teal-500"
+    },
+    "midas.teal.600": {
+      "$value": "#0c7570",
+      "$type": "color",
+      "$description": "MIDAS teal 600 for secondary hover states.",
+      "cssVariable": "--midas-teal-600"
+    },
+    "midas.grey.0": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "White neutral for surfaces and inverse text.",
+      "cssVariable": "--midas-grey-0"
+    },
+    "midas.grey.50": {
+      "$value": "#f6f8fa",
+      "$type": "color",
+      "$description": "Cool grey 50 for light-mode page backgrounds.",
+      "cssVariable": "--midas-grey-50"
+    },
+    "midas.grey.100": {
+      "$value": "#eef1f5",
+      "$type": "color",
+      "$description": "Cool grey 100 for alternate light-mode surfaces.",
+      "cssVariable": "--midas-grey-100"
+    },
+    "midas.grey.200": {
+      "$value": "#dde3ea",
+      "$type": "color",
+      "$description": "Cool grey 200 for decorative hairlines and gridlines.",
+      "cssVariable": "--midas-grey-200"
+    },
+    "midas.grey.300": {
+      "$value": "#c3ccd6",
+      "$type": "color",
+      "$description": "Cool grey 300 for low-emphasis axes and separators.",
+      "cssVariable": "--midas-grey-300"
+    },
+    "midas.grey.400": {
+      "$value": "#9aa6b2",
+      "$type": "color",
+      "$description": "Cool grey 400 for disabled or subdued UI.",
+      "cssVariable": "--midas-grey-400"
+    },
+    "midas.grey.450": {
+      "$value": "#616d79",
+      "$type": "color",
+      "$description": "Muted text grey tuned to clear AA on grey 50.",
+      "cssVariable": "--midas-grey-450"
+    },
+    "midas.grey.500": {
+      "$value": "#6b7885",
+      "$type": "color",
+      "$description": "Cool grey 500 for neutral chart and fallback colour.",
+      "cssVariable": "--midas-grey-500"
+    },
+    "midas.grey.600": {
+      "$value": "#4a5560",
+      "$type": "color",
+      "$description": "Cool grey 600 for strong muted neutral elements.",
+      "cssVariable": "--midas-grey-600"
+    },
+    "midas.grey.700": {
+      "$value": "#333c45",
+      "$type": "color",
+      "$description": "Cool grey 700 for dark neutral UI.",
+      "cssVariable": "--midas-grey-700"
+    },
+    "midas.grey.800": {
+      "$value": "#20262d",
+      "$type": "color",
+      "$description": "Cool grey 800 for near-black surfaces.",
+      "cssVariable": "--midas-grey-800"
+    },
+    "midas.grey.900": {
+      "$value": "#12161b",
+      "$type": "color",
+      "$description": "Cool grey 900 for primary light-mode text.",
+      "cssVariable": "--midas-grey-900"
+    },
+    "midas.danger": {
+      "$value": "#c1352c",
+      "$type": "color",
+      "$description": "Semantic danger colour. Red appears only in semantic danger roles.",
+      "cssVariable": "--midas-danger"
+    },
+    "midas.danger-bg": {
+      "$value": "#fdecea",
+      "$type": "color",
+      "$description": "Light danger background for alerts and validation.",
+      "cssVariable": "--midas-danger-bg"
+    },
+    "midas.danger-text": {
+      "$value": "#7a1f19",
+      "$type": "color",
+      "$description": "Danger text colour that contrasts with danger background.",
+      "cssVariable": "--midas-danger-text"
+    },
+    "midas.warning": {
+      "$value": "#b26a00",
+      "$type": "color",
+      "$description": "Semantic warning colour.",
+      "cssVariable": "--midas-warning"
+    },
+    "midas.warning-bg": {
+      "$value": "#fdf3e2",
+      "$type": "color",
+      "$description": "Light warning background for status panels.",
+      "cssVariable": "--midas-warning-bg"
+    },
+    "midas.warning-text": {
+      "$value": "#7a4900",
+      "$type": "color",
+      "$description": "Warning text colour that contrasts with warning background.",
+      "cssVariable": "--midas-warning-text"
+    },
+    "midas.success": {
+      "$value": "#1f7a4d",
+      "$type": "color",
+      "$description": "Semantic success colour.",
+      "cssVariable": "--midas-success"
+    },
+    "midas.success-bg": {
+      "$value": "#e8f5ee",
+      "$type": "color",
+      "$description": "Light success background for positive states.",
+      "cssVariable": "--midas-success-bg"
+    },
+    "midas.success-text": {
+      "$value": "#14543a",
+      "$type": "color",
+      "$description": "Success text colour that contrasts with success background.",
+      "cssVariable": "--midas-success-text"
+    },
+    "midas.info": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "Semantic info colour aligned to MIDAS blue.",
+      "cssVariable": "--midas-info"
+    },
+    "midas.info-bg": {
+      "$value": "#e9f1f8",
+      "$type": "color",
+      "$description": "Light info background for informational panels.",
+      "cssVariable": "--midas-info-bg"
+    },
+    "midas.info-text": {
+      "$value": "#17406a",
+      "$type": "color",
+      "$description": "Info text colour that contrasts with info background.",
+      "cssVariable": "--midas-info-text"
+    },
+    "midas.cat.1": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "Categorical slot 1. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-1"
+    },
+    "midas.cat.2": {
+      "$value": "#e69f00",
+      "$type": "color",
+      "$description": "Categorical slot 2. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-2"
+    },
+    "midas.cat.3": {
+      "$value": "#1f9d8b",
+      "$type": "color",
+      "$description": "Categorical slot 3. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-3"
+    },
+    "midas.cat.4": {
+      "$value": "#cc6677",
+      "$type": "color",
+      "$description": "Categorical slot 4. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-4"
+    },
+    "midas.cat.5": {
+      "$value": "#56b4e9",
+      "$type": "color",
+      "$description": "Categorical slot 5. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-5"
+    },
+    "midas.cat.6": {
+      "$value": "#9467bd",
+      "$type": "color",
+      "$description": "Categorical slot 6. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-6"
+    },
+    "midas.cat.7": {
+      "$value": "#5b9e3f",
+      "$type": "color",
+      "$description": "Categorical slot 7. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-7"
+    },
+    "midas.cat.8": {
+      "$value": "#d55e00",
+      "$type": "color",
+      "$description": "Categorical slot 8. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-8"
+    },
+    "midas.cat.9": {
+      "$value": "#cc79a7",
+      "$type": "color",
+      "$description": "Categorical slot 9. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-9"
+    },
+    "midas.cat.10": {
+      "$value": "#b08c3e",
+      "$type": "color",
+      "$description": "Categorical slot 10. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-10"
+    },
+    "midas.cat.other": {
+      "$value": "#6b7885",
+      "$type": "color",
+      "$description": "Categorical fallback. Past slot 10, fold the tail into cat-other.",
+      "cssVariable": "--midas-cat-other"
+    },
+    "midas.seq.1": {
+      "$value": "#eaf2fb",
+      "$type": "color",
+      "$description": "Sequential ramp step 1, low value.",
+      "cssVariable": "--midas-seq-1"
+    },
+    "midas.seq.2": {
+      "$value": "#c6ddf1",
+      "$type": "color",
+      "$description": "Sequential ramp step 2.",
+      "cssVariable": "--midas-seq-2"
+    },
+    "midas.seq.3": {
+      "$value": "#93bfe0",
+      "$type": "color",
+      "$description": "Sequential ramp step 3.",
+      "cssVariable": "--midas-seq-3"
+    },
+    "midas.seq.4": {
+      "$value": "#5b9bcd",
+      "$type": "color",
+      "$description": "Sequential ramp step 4.",
+      "cssVariable": "--midas-seq-4"
+    },
+    "midas.seq.5": {
+      "$value": "#3178b4",
+      "$type": "color",
+      "$description": "Sequential ramp step 5.",
+      "cssVariable": "--midas-seq-5"
+    },
+    "midas.seq.6": {
+      "$value": "#1d5893",
+      "$type": "color",
+      "$description": "Sequential ramp step 6.",
+      "cssVariable": "--midas-seq-6"
+    },
+    "midas.seq.7": {
+      "$value": "#0f3a63",
+      "$type": "color",
+      "$description": "Sequential ramp step 7, high value.",
+      "cssVariable": "--midas-seq-7"
+    },
+    "midas.div.1": {
+      "$value": "#a3510a",
+      "$type": "color",
+      "$description": "Diverging ramp step 1, orange endpoint.",
+      "cssVariable": "--midas-div-1"
+    },
+    "midas.div.2": {
+      "$value": "#dd8b3a",
+      "$type": "color",
+      "$description": "Diverging ramp step 2, orange side.",
+      "cssVariable": "--midas-div-2"
+    },
+    "midas.div.3": {
+      "$value": "#f3c58f",
+      "$type": "color",
+      "$description": "Diverging ramp step 3, light orange side.",
+      "cssVariable": "--midas-div-3"
+    },
+    "midas.div.4": {
+      "$value": "#eef0f2",
+      "$type": "color",
+      "$description": "Diverging ramp neutral midpoint; never a hue.",
+      "cssVariable": "--midas-div-4"
+    },
+    "midas.div.5": {
+      "$value": "#a6c6e2",
+      "$type": "color",
+      "$description": "Diverging ramp step 5, light blue side.",
+      "cssVariable": "--midas-div-5"
+    },
+    "midas.div.6": {
+      "$value": "#4d89bf",
+      "$type": "color",
+      "$description": "Diverging ramp step 6, blue side.",
+      "cssVariable": "--midas-div-6"
+    },
+    "midas.div.7": {
+      "$value": "#164a80",
+      "$type": "color",
+      "$description": "Diverging ramp step 7, blue endpoint.",
+      "cssVariable": "--midas-div-7"
+    },
+    "color.bg": {
+      "$value": "#f6f8fa",
+      "$type": "color",
+      "$description": "Page background colour.",
+      "cssVariable": "--color-bg"
+    },
+    "color.surface": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Default panel and card surface.",
+      "cssVariable": "--color-surface"
+    },
+    "color.surface-alt": {
+      "$value": "#eef1f5",
+      "$type": "color",
+      "$description": "Alternate surface for subtle grouping.",
+      "cssVariable": "--color-surface-alt"
+    },
+    "color.border": {
+      "$value": "#dde3ea",
+      "$type": "color",
+      "$description": "Decorative hairline border. Exempt from contrast gating.",
+      "cssVariable": "--color-border"
+    },
+    "color.border-strong": {
+      "$value": "#7c8996",
+      "$type": "color",
+      "$description": "Control outline border that meets UI contrast.",
+      "cssVariable": "--color-border-strong"
+    },
+    "color.text": {
+      "$value": "#12161b",
+      "$type": "color",
+      "$description": "Primary text colour.",
+      "cssVariable": "--color-text"
+    },
+    "color.text-muted": {
+      "$value": "#616d79",
+      "$type": "color",
+      "$description": "Muted text colour tuned for AA contrast.",
+      "cssVariable": "--color-text-muted"
+    },
+    "color.text-inverse": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Text on dark or saturated backgrounds.",
+      "cssVariable": "--color-text-inverse"
+    },
+    "color.primary": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "Primary action and brand role.",
+      "cssVariable": "--color-primary"
+    },
+    "color.primary-hover": {
+      "$value": "#17406a",
+      "$type": "color",
+      "$description": "Primary action hover state.",
+      "cssVariable": "--color-primary-hover"
+    },
+    "color.primary-active": {
+      "$value": "#102e4d",
+      "$type": "color",
+      "$description": "Primary action active state.",
+      "cssVariable": "--color-primary-active"
+    },
+    "color.primary-contrast": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Text or icon colour on primary backgrounds.",
+      "cssVariable": "--color-primary-contrast"
+    },
+    "color.secondary": {
+      "$value": "#14958a",
+      "$type": "color",
+      "$description": "Secondary action role.",
+      "cssVariable": "--color-secondary"
+    },
+    "color.secondary-hover": {
+      "$value": "#0c7570",
+      "$type": "color",
+      "$description": "Secondary action hover state.",
+      "cssVariable": "--color-secondary-hover"
+    },
+    "color.link": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "Default link colour.",
+      "cssVariable": "--color-link"
+    },
+    "color.link-hover": {
+      "$value": "#17406a",
+      "$type": "color",
+      "$description": "Link hover colour.",
+      "cssVariable": "--color-link-hover"
+    },
+    "color.focus-ring": {
+      "$value": "#5187be",
+      "$type": "color",
+      "$description": "Visible focus indicator.",
+      "cssVariable": "--color-focus-ring"
+    },
+    "color.selection": {
+      "$value": "#dbe8f4",
+      "$type": "color",
+      "$description": "Selection highlight colour.",
+      "cssVariable": "--color-selection"
+    },
+    "color.danger": {
+      "$value": "#c1352c",
+      "$type": "color",
+      "$description": "Danger semantic role.",
+      "cssVariable": "--color-danger"
+    },
+    "color.danger-bg": {
+      "$value": "#fdecea",
+      "$type": "color",
+      "$description": "Danger background role.",
+      "cssVariable": "--color-danger-bg"
+    },
+    "color.danger-text": {
+      "$value": "#7a1f19",
+      "$type": "color",
+      "$description": "Danger text role.",
+      "cssVariable": "--color-danger-text"
+    },
+    "color.warning": {
+      "$value": "#b26a00",
+      "$type": "color",
+      "$description": "Warning semantic role.",
+      "cssVariable": "--color-warning"
+    },
+    "color.warning-bg": {
+      "$value": "#fdf3e2",
+      "$type": "color",
+      "$description": "Warning background role.",
+      "cssVariable": "--color-warning-bg"
+    },
+    "color.warning-text": {
+      "$value": "#7a4900",
+      "$type": "color",
+      "$description": "Warning text role.",
+      "cssVariable": "--color-warning-text"
+    },
+    "color.success": {
+      "$value": "#1f7a4d",
+      "$type": "color",
+      "$description": "Success semantic role.",
+      "cssVariable": "--color-success"
+    },
+    "color.success-bg": {
+      "$value": "#e8f5ee",
+      "$type": "color",
+      "$description": "Success background role.",
+      "cssVariable": "--color-success-bg"
+    },
+    "color.success-text": {
+      "$value": "#14543a",
+      "$type": "color",
+      "$description": "Success text role.",
+      "cssVariable": "--color-success-text"
+    },
+    "color.info": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "Info semantic role.",
+      "cssVariable": "--color-info"
+    },
+    "color.info-bg": {
+      "$value": "#e9f1f8",
+      "$type": "color",
+      "$description": "Info background role.",
+      "cssVariable": "--color-info-bg"
+    },
+    "color.info-text": {
+      "$value": "#17406a",
+      "$type": "color",
+      "$description": "Info text role.",
+      "cssVariable": "--color-info-text"
+    },
+    "color.header-bg": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Header background role.",
+      "cssVariable": "--color-header-bg"
+    },
+    "color.header-accent": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "Header accent rule or mark.",
+      "cssVariable": "--color-header-accent"
+    },
+    "chart.surface": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Chart plotting surface.",
+      "cssVariable": "--chart-surface"
+    },
+    "chart.gridline": {
+      "$value": "#dde3ea",
+      "$type": "color",
+      "$description": "Recessive chart gridline; intentionally not contrast-gated.",
+      "cssVariable": "--chart-gridline"
+    },
+    "chart.axis": {
+      "$value": "#c3ccd6",
+      "$type": "color",
+      "$description": "Recessive chart axis; intentionally not contrast-gated.",
+      "cssVariable": "--chart-axis"
+    },
+    "chart.ink": {
+      "$value": "#12161b",
+      "$type": "color",
+      "$description": "Chart label ink.",
+      "cssVariable": "--chart-ink"
+    },
+    "chart.ink-muted": {
+      "$value": "#6b7885",
+      "$type": "color",
+      "$description": "Muted chart label ink.",
+      "cssVariable": "--chart-ink-muted"
+    },
+    "font.sans": {
+      "$value": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "$type": "fontFamily",
+      "$description": "MIDAS sans-serif font stack.",
+      "cssVariable": "--font-sans"
+    },
+    "font.mono": {
+      "$value": "\"JetBrains Mono\", \"SF Mono\", ui-monospace, \"Cascadia Code\", Consolas, monospace",
+      "$type": "fontFamily",
+      "$description": "MIDAS monospace font stack.",
+      "cssVariable": "--font-mono"
+    },
+    "num.tabular": {
+      "$value": "\"tnum\" 1, \"lnum\" 1",
+      "$type": "fontFeatureSettings",
+      "$description": "Font feature settings for tabular lining figures.",
+      "cssVariable": "--num-tabular"
+    },
+    "radius.sm": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Small radius.",
+      "cssVariable": "--radius-sm"
+    },
+    "radius.md": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Medium radius.",
+      "cssVariable": "--radius-md"
+    },
+    "radius.lg": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Large radius.",
+      "cssVariable": "--radius-lg"
+    },
+    "radius.pill": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$description": "Pill radius.",
+      "cssVariable": "--radius-pill"
+    },
+    "space.1": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing step 1.",
+      "cssVariable": "--space-1"
+    },
+    "space.2": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing step 2.",
+      "cssVariable": "--space-2"
+    },
+    "space.3": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing step 3.",
+      "cssVariable": "--space-3"
+    },
+    "space.4": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing step 4.",
+      "cssVariable": "--space-4"
+    },
+    "space.5": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing step 5.",
+      "cssVariable": "--space-5"
+    },
+    "space.6": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing step 6.",
+      "cssVariable": "--space-6"
+    },
+    "shadow.sm": {
+      "$value": "0 1px 2px rgba(11,31,53,0.06), 0 1px 3px rgba(11,31,53,0.08)",
+      "$type": "shadow",
+      "$description": "Small elevation shadow.",
+      "cssVariable": "--shadow-sm"
+    },
+    "shadow.md": {
+      "$value": "0 2px 6px rgba(11,31,53,0.08), 0 6px 16px rgba(11,31,53,0.10)",
+      "$type": "shadow",
+      "$description": "Medium elevation shadow.",
+      "cssVariable": "--shadow-md"
+    },
+    "border.hairline": {
+      "$value": "0.5px solid #dde3ea",
+      "$type": "border",
+      "$description": "Decorative hairline border.",
+      "cssVariable": "--border-hairline"
+    }
+  },
+  "dark": {
+    "midas.blue.50": {
+      "$value": "#f0f5fa",
+      "$type": "color",
+      "$description": "MIDAS blue 50, the lightest blue for subtle chrome and backgrounds.",
+      "cssVariable": "--midas-blue-50"
+    },
+    "midas.blue.100": {
+      "$value": "#dbe8f4",
+      "$type": "color",
+      "$description": "MIDAS blue 100 for light selections and low-emphasis blue surfaces.",
+      "cssVariable": "--midas-blue-100"
+    },
+    "midas.blue.200": {
+      "$value": "#b4cde6",
+      "$type": "color",
+      "$description": "MIDAS blue 200 for pale brand accents.",
+      "cssVariable": "--midas-blue-200"
+    },
+    "midas.blue.300": {
+      "$value": "#83aad3",
+      "$type": "color",
+      "$description": "MIDAS blue 300 for medium-light brand accents.",
+      "cssVariable": "--midas-blue-300"
+    },
+    "midas.blue.400": {
+      "$value": "#5187be",
+      "$type": "color",
+      "$description": "MIDAS blue 400 for focus rings and accessible accents.",
+      "cssVariable": "--midas-blue-400"
+    },
+    "midas.blue.500": {
+      "$value": "#2f6ba6",
+      "$type": "color",
+      "$description": "MIDAS blue 500 for primary brand colour.",
+      "cssVariable": "--midas-blue-500"
+    },
+    "midas.blue.600": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "MIDAS blue 600 for light-mode primary actions and links.",
+      "cssVariable": "--midas-blue-600"
+    },
+    "midas.blue.700": {
+      "$value": "#17406a",
+      "$type": "color",
+      "$description": "MIDAS blue 700 for light-mode primary hover states.",
+      "cssVariable": "--midas-blue-700"
+    },
+    "midas.blue.800": {
+      "$value": "#102e4d",
+      "$type": "color",
+      "$description": "MIDAS blue 800 for light-mode active states and deep chrome.",
+      "cssVariable": "--midas-blue-800"
+    },
+    "midas.blue.900": {
+      "$value": "#0b1f35",
+      "$type": "color",
+      "$description": "MIDAS blue 900 for the deepest brand navy.",
+      "cssVariable": "--midas-blue-900"
+    },
+    "midas.teal.100": {
+      "$value": "#d6f0ea",
+      "$type": "color",
+      "$description": "MIDAS teal 100 for pale secondary accents.",
+      "cssVariable": "--midas-teal-100"
+    },
+    "midas.teal.400": {
+      "$value": "#2bb6a3",
+      "$type": "color",
+      "$description": "MIDAS teal 400 for dark-mode secondary actions.",
+      "cssVariable": "--midas-teal-400"
+    },
+    "midas.teal.500": {
+      "$value": "#14958a",
+      "$type": "color",
+      "$description": "MIDAS teal 500 for light-mode secondary actions.",
+      "cssVariable": "--midas-teal-500"
+    },
+    "midas.teal.600": {
+      "$value": "#0c7570",
+      "$type": "color",
+      "$description": "MIDAS teal 600 for secondary hover states.",
+      "cssVariable": "--midas-teal-600"
+    },
+    "midas.grey.0": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "White neutral for surfaces and inverse text.",
+      "cssVariable": "--midas-grey-0"
+    },
+    "midas.grey.50": {
+      "$value": "#f6f8fa",
+      "$type": "color",
+      "$description": "Cool grey 50 for light-mode page backgrounds.",
+      "cssVariable": "--midas-grey-50"
+    },
+    "midas.grey.100": {
+      "$value": "#eef1f5",
+      "$type": "color",
+      "$description": "Cool grey 100 for alternate light-mode surfaces.",
+      "cssVariable": "--midas-grey-100"
+    },
+    "midas.grey.200": {
+      "$value": "#dde3ea",
+      "$type": "color",
+      "$description": "Cool grey 200 for decorative hairlines and gridlines.",
+      "cssVariable": "--midas-grey-200"
+    },
+    "midas.grey.300": {
+      "$value": "#c3ccd6",
+      "$type": "color",
+      "$description": "Cool grey 300 for low-emphasis axes and separators.",
+      "cssVariable": "--midas-grey-300"
+    },
+    "midas.grey.400": {
+      "$value": "#9aa6b2",
+      "$type": "color",
+      "$description": "Cool grey 400 for disabled or subdued UI.",
+      "cssVariable": "--midas-grey-400"
+    },
+    "midas.grey.450": {
+      "$value": "#616d79",
+      "$type": "color",
+      "$description": "Muted text grey tuned to clear AA on grey 50.",
+      "cssVariable": "--midas-grey-450"
+    },
+    "midas.grey.500": {
+      "$value": "#6b7885",
+      "$type": "color",
+      "$description": "Cool grey 500 for neutral chart and fallback colour.",
+      "cssVariable": "--midas-grey-500"
+    },
+    "midas.grey.600": {
+      "$value": "#4a5560",
+      "$type": "color",
+      "$description": "Cool grey 600 for strong muted neutral elements.",
+      "cssVariable": "--midas-grey-600"
+    },
+    "midas.grey.700": {
+      "$value": "#333c45",
+      "$type": "color",
+      "$description": "Cool grey 700 for dark neutral UI.",
+      "cssVariable": "--midas-grey-700"
+    },
+    "midas.grey.800": {
+      "$value": "#20262d",
+      "$type": "color",
+      "$description": "Cool grey 800 for near-black surfaces.",
+      "cssVariable": "--midas-grey-800"
+    },
+    "midas.grey.900": {
+      "$value": "#12161b",
+      "$type": "color",
+      "$description": "Cool grey 900 for primary light-mode text.",
+      "cssVariable": "--midas-grey-900"
+    },
+    "midas.danger": {
+      "$value": "#c1352c",
+      "$type": "color",
+      "$description": "Semantic danger colour. Red appears only in semantic danger roles.",
+      "cssVariable": "--midas-danger"
+    },
+    "midas.danger-bg": {
+      "$value": "#fdecea",
+      "$type": "color",
+      "$description": "Light danger background for alerts and validation.",
+      "cssVariable": "--midas-danger-bg"
+    },
+    "midas.danger-text": {
+      "$value": "#7a1f19",
+      "$type": "color",
+      "$description": "Danger text colour that contrasts with danger background.",
+      "cssVariable": "--midas-danger-text"
+    },
+    "midas.warning": {
+      "$value": "#b26a00",
+      "$type": "color",
+      "$description": "Semantic warning colour.",
+      "cssVariable": "--midas-warning"
+    },
+    "midas.warning-bg": {
+      "$value": "#fdf3e2",
+      "$type": "color",
+      "$description": "Light warning background for status panels.",
+      "cssVariable": "--midas-warning-bg"
+    },
+    "midas.warning-text": {
+      "$value": "#7a4900",
+      "$type": "color",
+      "$description": "Warning text colour that contrasts with warning background.",
+      "cssVariable": "--midas-warning-text"
+    },
+    "midas.success": {
+      "$value": "#1f7a4d",
+      "$type": "color",
+      "$description": "Semantic success colour.",
+      "cssVariable": "--midas-success"
+    },
+    "midas.success-bg": {
+      "$value": "#e8f5ee",
+      "$type": "color",
+      "$description": "Light success background for positive states.",
+      "cssVariable": "--midas-success-bg"
+    },
+    "midas.success-text": {
+      "$value": "#14543a",
+      "$type": "color",
+      "$description": "Success text colour that contrasts with success background.",
+      "cssVariable": "--midas-success-text"
+    },
+    "midas.info": {
+      "$value": "#205487",
+      "$type": "color",
+      "$description": "Semantic info colour aligned to MIDAS blue.",
+      "cssVariable": "--midas-info"
+    },
+    "midas.info-bg": {
+      "$value": "#e9f1f8",
+      "$type": "color",
+      "$description": "Light info background for informational panels.",
+      "cssVariable": "--midas-info-bg"
+    },
+    "midas.info-text": {
+      "$value": "#17406a",
+      "$type": "color",
+      "$description": "Info text colour that contrasts with info background.",
+      "cssVariable": "--midas-info-text"
+    },
+    "midas.cat.1": {
+      "$value": "#5187be",
+      "$type": "color",
+      "$description": "Dark-mode categorical slot 1 override for navy surfaces.",
+      "cssVariable": "--midas-cat-1"
+    },
+    "midas.cat.2": {
+      "$value": "#e69f00",
+      "$type": "color",
+      "$description": "Categorical slot 2. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-2"
+    },
+    "midas.cat.3": {
+      "$value": "#1f9d8b",
+      "$type": "color",
+      "$description": "Categorical slot 3. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-3"
+    },
+    "midas.cat.4": {
+      "$value": "#cc6677",
+      "$type": "color",
+      "$description": "Categorical slot 4. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-4"
+    },
+    "midas.cat.5": {
+      "$value": "#56b4e9",
+      "$type": "color",
+      "$description": "Categorical slot 5. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-5"
+    },
+    "midas.cat.6": {
+      "$value": "#9467bd",
+      "$type": "color",
+      "$description": "Categorical slot 6. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-6"
+    },
+    "midas.cat.7": {
+      "$value": "#5b9e3f",
+      "$type": "color",
+      "$description": "Categorical slot 7. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-7"
+    },
+    "midas.cat.8": {
+      "$value": "#d55e00",
+      "$type": "color",
+      "$description": "Categorical slot 8. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-8"
+    },
+    "midas.cat.9": {
+      "$value": "#cc79a7",
+      "$type": "color",
+      "$description": "Categorical slot 9. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-9"
+    },
+    "midas.cat.10": {
+      "$value": "#b08c3e",
+      "$type": "color",
+      "$description": "Categorical slot 10. Assign categorical colours by entity, never rank.",
+      "cssVariable": "--midas-cat-10"
+    },
+    "midas.cat.other": {
+      "$value": "#8a97a5",
+      "$type": "color",
+      "$description": "Dark-mode categorical fallback override for navy surfaces.",
+      "cssVariable": "--midas-cat-other"
+    },
+    "midas.seq.1": {
+      "$value": "#eaf2fb",
+      "$type": "color",
+      "$description": "Sequential ramp step 1, low value.",
+      "cssVariable": "--midas-seq-1"
+    },
+    "midas.seq.2": {
+      "$value": "#c6ddf1",
+      "$type": "color",
+      "$description": "Sequential ramp step 2.",
+      "cssVariable": "--midas-seq-2"
+    },
+    "midas.seq.3": {
+      "$value": "#93bfe0",
+      "$type": "color",
+      "$description": "Sequential ramp step 3.",
+      "cssVariable": "--midas-seq-3"
+    },
+    "midas.seq.4": {
+      "$value": "#5b9bcd",
+      "$type": "color",
+      "$description": "Sequential ramp step 4.",
+      "cssVariable": "--midas-seq-4"
+    },
+    "midas.seq.5": {
+      "$value": "#3178b4",
+      "$type": "color",
+      "$description": "Sequential ramp step 5.",
+      "cssVariable": "--midas-seq-5"
+    },
+    "midas.seq.6": {
+      "$value": "#1d5893",
+      "$type": "color",
+      "$description": "Sequential ramp step 6.",
+      "cssVariable": "--midas-seq-6"
+    },
+    "midas.seq.7": {
+      "$value": "#0f3a63",
+      "$type": "color",
+      "$description": "Sequential ramp step 7, high value.",
+      "cssVariable": "--midas-seq-7"
+    },
+    "midas.div.1": {
+      "$value": "#a3510a",
+      "$type": "color",
+      "$description": "Diverging ramp step 1, orange endpoint.",
+      "cssVariable": "--midas-div-1"
+    },
+    "midas.div.2": {
+      "$value": "#dd8b3a",
+      "$type": "color",
+      "$description": "Diverging ramp step 2, orange side.",
+      "cssVariable": "--midas-div-2"
+    },
+    "midas.div.3": {
+      "$value": "#f3c58f",
+      "$type": "color",
+      "$description": "Diverging ramp step 3, light orange side.",
+      "cssVariable": "--midas-div-3"
+    },
+    "midas.div.4": {
+      "$value": "#eef0f2",
+      "$type": "color",
+      "$description": "Diverging ramp neutral midpoint; never a hue.",
+      "cssVariable": "--midas-div-4"
+    },
+    "midas.div.5": {
+      "$value": "#a6c6e2",
+      "$type": "color",
+      "$description": "Diverging ramp step 5, light blue side.",
+      "cssVariable": "--midas-div-5"
+    },
+    "midas.div.6": {
+      "$value": "#4d89bf",
+      "$type": "color",
+      "$description": "Diverging ramp step 6, blue side.",
+      "cssVariable": "--midas-div-6"
+    },
+    "midas.div.7": {
+      "$value": "#164a80",
+      "$type": "color",
+      "$description": "Diverging ramp step 7, blue endpoint.",
+      "cssVariable": "--midas-div-7"
+    },
+    "color.bg": {
+      "$value": "#0c1a2b",
+      "$type": "color",
+      "$description": "Dark-mode page background.",
+      "cssVariable": "--color-bg"
+    },
+    "color.surface": {
+      "$value": "#12263c",
+      "$type": "color",
+      "$description": "Dark-mode default surface.",
+      "cssVariable": "--color-surface"
+    },
+    "color.surface-alt": {
+      "$value": "#17304a",
+      "$type": "color",
+      "$description": "Dark-mode alternate surface.",
+      "cssVariable": "--color-surface-alt"
+    },
+    "color.border": {
+      "$value": "#274462",
+      "$type": "color",
+      "$description": "Dark-mode decorative hairline border.",
+      "cssVariable": "--color-border"
+    },
+    "color.border-strong": {
+      "$value": "#547a9e",
+      "$type": "color",
+      "$description": "Dark-mode control outline border.",
+      "cssVariable": "--color-border-strong"
+    },
+    "color.text": {
+      "$value": "#e7edf3",
+      "$type": "color",
+      "$description": "Dark-mode primary text.",
+      "cssVariable": "--color-text"
+    },
+    "color.text-muted": {
+      "$value": "#9fb2c4",
+      "$type": "color",
+      "$description": "Dark-mode muted text.",
+      "cssVariable": "--color-text-muted"
+    },
+    "color.text-inverse": {
+      "$value": "#08131f",
+      "$type": "color",
+      "$description": "Dark-mode inverse text.",
+      "cssVariable": "--color-text-inverse"
+    },
+    "color.primary": {
+      "$value": "#4e8bc0",
+      "$type": "color",
+      "$description": "Dark-mode primary action.",
+      "cssVariable": "--color-primary"
+    },
+    "color.primary-hover": {
+      "$value": "#6ba0cf",
+      "$type": "color",
+      "$description": "Dark-mode primary hover.",
+      "cssVariable": "--color-primary-hover"
+    },
+    "color.primary-active": {
+      "$value": "#83aad3",
+      "$type": "color",
+      "$description": "Dark-mode primary active.",
+      "cssVariable": "--color-primary-active"
+    },
+    "color.primary-contrast": {
+      "$value": "#08131f",
+      "$type": "color",
+      "$description": "Dark-mode text or icon colour on primary backgrounds.",
+      "cssVariable": "--color-primary-contrast"
+    },
+    "color.secondary": {
+      "$value": "#2bb6a3",
+      "$type": "color",
+      "$description": "Dark-mode secondary action.",
+      "cssVariable": "--color-secondary"
+    },
+    "color.secondary-hover": {
+      "$value": "#4fc9b8",
+      "$type": "color",
+      "$description": "Dark-mode secondary hover.",
+      "cssVariable": "--color-secondary-hover"
+    },
+    "color.link": {
+      "$value": "#7fb0dd",
+      "$type": "color",
+      "$description": "Dark-mode link.",
+      "cssVariable": "--color-link"
+    },
+    "color.link-hover": {
+      "$value": "#a3c6e6",
+      "$type": "color",
+      "$description": "Dark-mode link hover.",
+      "cssVariable": "--color-link-hover"
+    },
+    "color.focus-ring": {
+      "$value": "#6ba0cf",
+      "$type": "color",
+      "$description": "Dark-mode focus ring.",
+      "cssVariable": "--color-focus-ring"
+    },
+    "color.selection": {
+      "$value": "#1c3a5a",
+      "$type": "color",
+      "$description": "Dark-mode selection highlight.",
+      "cssVariable": "--color-selection"
+    },
+    "color.danger": {
+      "$value": "#e06a60",
+      "$type": "color",
+      "$description": "Dark-mode danger role.",
+      "cssVariable": "--color-danger"
+    },
+    "color.danger-bg": {
+      "$value": "#3a1a17",
+      "$type": "color",
+      "$description": "Dark-mode danger background.",
+      "cssVariable": "--color-danger-bg"
+    },
+    "color.danger-text": {
+      "$value": "#f2b8b2",
+      "$type": "color",
+      "$description": "Dark-mode danger text.",
+      "cssVariable": "--color-danger-text"
+    },
+    "color.warning": {
+      "$value": "#e0a34a",
+      "$type": "color",
+      "$description": "Dark-mode warning role.",
+      "cssVariable": "--color-warning"
+    },
+    "color.warning-bg": {
+      "$value": "#3a2a10",
+      "$type": "color",
+      "$description": "Dark-mode warning background.",
+      "cssVariable": "--color-warning-bg"
+    },
+    "color.warning-text": {
+      "$value": "#f2d3a0",
+      "$type": "color",
+      "$description": "Dark-mode warning text.",
+      "cssVariable": "--color-warning-text"
+    },
+    "color.success": {
+      "$value": "#4fb07d",
+      "$type": "color",
+      "$description": "Dark-mode success role.",
+      "cssVariable": "--color-success"
+    },
+    "color.success-bg": {
+      "$value": "#123a29",
+      "$type": "color",
+      "$description": "Dark-mode success background.",
+      "cssVariable": "--color-success-bg"
+    },
+    "color.success-text": {
+      "$value": "#a8dcc0",
+      "$type": "color",
+      "$description": "Dark-mode success text.",
+      "cssVariable": "--color-success-text"
+    },
+    "color.info": {
+      "$value": "#4e8bc0",
+      "$type": "color",
+      "$description": "Dark-mode info role.",
+      "cssVariable": "--color-info"
+    },
+    "color.info-bg": {
+      "$value": "#14324f",
+      "$type": "color",
+      "$description": "Dark-mode info background.",
+      "cssVariable": "--color-info-bg"
+    },
+    "color.info-text": {
+      "$value": "#a6c6e2",
+      "$type": "color",
+      "$description": "Dark-mode info text.",
+      "cssVariable": "--color-info-text"
+    },
+    "color.header-bg": {
+      "$value": "#12263c",
+      "$type": "color",
+      "$description": "Dark-mode header background.",
+      "cssVariable": "--color-header-bg"
+    },
+    "color.header-accent": {
+      "$value": "#4e8bc0",
+      "$type": "color",
+      "$description": "Dark-mode header accent.",
+      "cssVariable": "--color-header-accent"
+    },
+    "chart.surface": {
+      "$value": "#12263c",
+      "$type": "color",
+      "$description": "Dark-mode chart surface.",
+      "cssVariable": "--chart-surface"
+    },
+    "chart.gridline": {
+      "$value": "#24405f",
+      "$type": "color",
+      "$description": "Dark-mode recessive chart gridline.",
+      "cssVariable": "--chart-gridline"
+    },
+    "chart.axis": {
+      "$value": "#375b7e",
+      "$type": "color",
+      "$description": "Dark-mode recessive chart axis.",
+      "cssVariable": "--chart-axis"
+    },
+    "chart.ink": {
+      "$value": "#e7edf3",
+      "$type": "color",
+      "$description": "Dark-mode chart label ink.",
+      "cssVariable": "--chart-ink"
+    },
+    "chart.ink-muted": {
+      "$value": "#9fb2c4",
+      "$type": "color",
+      "$description": "Dark-mode muted chart label ink.",
+      "cssVariable": "--chart-ink-muted"
+    },
+    "font.sans": {
+      "$value": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "$type": "fontFamily",
+      "$description": "MIDAS sans-serif font stack.",
+      "cssVariable": "--font-sans"
+    },
+    "font.mono": {
+      "$value": "\"JetBrains Mono\", \"SF Mono\", ui-monospace, \"Cascadia Code\", Consolas, monospace",
+      "$type": "fontFamily",
+      "$description": "MIDAS monospace font stack.",
+      "cssVariable": "--font-mono"
+    },
+    "num.tabular": {
+      "$value": "\"tnum\" 1, \"lnum\" 1",
+      "$type": "fontFeatureSettings",
+      "$description": "Font feature settings for tabular lining figures.",
+      "cssVariable": "--num-tabular"
+    },
+    "radius.sm": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Small radius.",
+      "cssVariable": "--radius-sm"
+    },
+    "radius.md": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Medium radius.",
+      "cssVariable": "--radius-md"
+    },
+    "radius.lg": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Large radius.",
+      "cssVariable": "--radius-lg"
+    },
+    "radius.pill": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$description": "Pill radius.",
+      "cssVariable": "--radius-pill"
+    },
+    "space.1": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing step 1.",
+      "cssVariable": "--space-1"
+    },
+    "space.2": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing step 2.",
+      "cssVariable": "--space-2"
+    },
+    "space.3": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing step 3.",
+      "cssVariable": "--space-3"
+    },
+    "space.4": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing step 4.",
+      "cssVariable": "--space-4"
+    },
+    "space.5": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing step 5.",
+      "cssVariable": "--space-5"
+    },
+    "space.6": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing step 6.",
+      "cssVariable": "--space-6"
+    },
+    "shadow.sm": {
+      "$value": "0 1px 2px rgba(0,0,0,0.35), 0 1px 3px rgba(0,0,0,0.35)",
+      "$type": "shadow",
+      "$description": "Dark-mode small elevation shadow.",
+      "cssVariable": "--shadow-sm"
+    },
+    "shadow.md": {
+      "$value": "0 2px 6px rgba(0,0,0,0.45), 0 6px 16px rgba(0,0,0,0.45)",
+      "$type": "shadow",
+      "$description": "Dark-mode medium elevation shadow.",
+      "cssVariable": "--shadow-md"
+    },
+    "border.hairline": {
+      "$value": "0.5px solid #274462",
+      "$type": "border",
+      "$description": "Decorative hairline border.",
+      "cssVariable": "--border-hairline"
+    }
+  },
+  "darkOverrides": {
+    "color.bg": {
+      "$value": "#0c1a2b",
+      "$type": "color",
+      "$description": "Dark-mode page background.",
+      "cssVariable": "--color-bg"
+    },
+    "color.surface": {
+      "$value": "#12263c",
+      "$type": "color",
+      "$description": "Dark-mode default surface.",
+      "cssVariable": "--color-surface"
+    },
+    "color.surface-alt": {
+      "$value": "#17304a",
+      "$type": "color",
+      "$description": "Dark-mode alternate surface.",
+      "cssVariable": "--color-surface-alt"
+    },
+    "color.border": {
+      "$value": "#274462",
+      "$type": "color",
+      "$description": "Dark-mode decorative hairline border.",
+      "cssVariable": "--color-border"
+    },
+    "color.border-strong": {
+      "$value": "#547a9e",
+      "$type": "color",
+      "$description": "Dark-mode control outline border.",
+      "cssVariable": "--color-border-strong"
+    },
+    "color.text": {
+      "$value": "#e7edf3",
+      "$type": "color",
+      "$description": "Dark-mode primary text.",
+      "cssVariable": "--color-text"
+    },
+    "color.text-muted": {
+      "$value": "#9fb2c4",
+      "$type": "color",
+      "$description": "Dark-mode muted text.",
+      "cssVariable": "--color-text-muted"
+    },
+    "color.text-inverse": {
+      "$value": "#08131f",
+      "$type": "color",
+      "$description": "Dark-mode inverse text.",
+      "cssVariable": "--color-text-inverse"
+    },
+    "color.primary": {
+      "$value": "#4e8bc0",
+      "$type": "color",
+      "$description": "Dark-mode primary action.",
+      "cssVariable": "--color-primary"
+    },
+    "color.primary-hover": {
+      "$value": "#6ba0cf",
+      "$type": "color",
+      "$description": "Dark-mode primary hover.",
+      "cssVariable": "--color-primary-hover"
+    },
+    "color.primary-active": {
+      "$value": "#83aad3",
+      "$type": "color",
+      "$description": "Dark-mode primary active.",
+      "cssVariable": "--color-primary-active"
+    },
+    "color.primary-contrast": {
+      "$value": "#08131f",
+      "$type": "color",
+      "$description": "Dark-mode text or icon colour on primary backgrounds.",
+      "cssVariable": "--color-primary-contrast"
+    },
+    "color.secondary": {
+      "$value": "#2bb6a3",
+      "$type": "color",
+      "$description": "Dark-mode secondary action.",
+      "cssVariable": "--color-secondary"
+    },
+    "color.secondary-hover": {
+      "$value": "#4fc9b8",
+      "$type": "color",
+      "$description": "Dark-mode secondary hover.",
+      "cssVariable": "--color-secondary-hover"
+    },
+    "color.link": {
+      "$value": "#7fb0dd",
+      "$type": "color",
+      "$description": "Dark-mode link.",
+      "cssVariable": "--color-link"
+    },
+    "color.link-hover": {
+      "$value": "#a3c6e6",
+      "$type": "color",
+      "$description": "Dark-mode link hover.",
+      "cssVariable": "--color-link-hover"
+    },
+    "color.focus-ring": {
+      "$value": "#6ba0cf",
+      "$type": "color",
+      "$description": "Dark-mode focus ring.",
+      "cssVariable": "--color-focus-ring"
+    },
+    "color.selection": {
+      "$value": "#1c3a5a",
+      "$type": "color",
+      "$description": "Dark-mode selection highlight.",
+      "cssVariable": "--color-selection"
+    },
+    "color.danger": {
+      "$value": "#e06a60",
+      "$type": "color",
+      "$description": "Dark-mode danger role.",
+      "cssVariable": "--color-danger"
+    },
+    "color.danger-bg": {
+      "$value": "#3a1a17",
+      "$type": "color",
+      "$description": "Dark-mode danger background.",
+      "cssVariable": "--color-danger-bg"
+    },
+    "color.danger-text": {
+      "$value": "#f2b8b2",
+      "$type": "color",
+      "$description": "Dark-mode danger text.",
+      "cssVariable": "--color-danger-text"
+    },
+    "color.warning": {
+      "$value": "#e0a34a",
+      "$type": "color",
+      "$description": "Dark-mode warning role.",
+      "cssVariable": "--color-warning"
+    },
+    "color.warning-bg": {
+      "$value": "#3a2a10",
+      "$type": "color",
+      "$description": "Dark-mode warning background.",
+      "cssVariable": "--color-warning-bg"
+    },
+    "color.warning-text": {
+      "$value": "#f2d3a0",
+      "$type": "color",
+      "$description": "Dark-mode warning text.",
+      "cssVariable": "--color-warning-text"
+    },
+    "color.success": {
+      "$value": "#4fb07d",
+      "$type": "color",
+      "$description": "Dark-mode success role.",
+      "cssVariable": "--color-success"
+    },
+    "color.success-bg": {
+      "$value": "#123a29",
+      "$type": "color",
+      "$description": "Dark-mode success background.",
+      "cssVariable": "--color-success-bg"
+    },
+    "color.success-text": {
+      "$value": "#a8dcc0",
+      "$type": "color",
+      "$description": "Dark-mode success text.",
+      "cssVariable": "--color-success-text"
+    },
+    "color.info": {
+      "$value": "#4e8bc0",
+      "$type": "color",
+      "$description": "Dark-mode info role.",
+      "cssVariable": "--color-info"
+    },
+    "color.info-bg": {
+      "$value": "#14324f",
+      "$type": "color",
+      "$description": "Dark-mode info background.",
+      "cssVariable": "--color-info-bg"
+    },
+    "color.info-text": {
+      "$value": "#a6c6e2",
+      "$type": "color",
+      "$description": "Dark-mode info text.",
+      "cssVariable": "--color-info-text"
+    },
+    "color.header-bg": {
+      "$value": "#12263c",
+      "$type": "color",
+      "$description": "Dark-mode header background.",
+      "cssVariable": "--color-header-bg"
+    },
+    "color.header-accent": {
+      "$value": "#4e8bc0",
+      "$type": "color",
+      "$description": "Dark-mode header accent.",
+      "cssVariable": "--color-header-accent"
+    },
+    "chart.surface": {
+      "$value": "#12263c",
+      "$type": "color",
+      "$description": "Dark-mode chart surface.",
+      "cssVariable": "--chart-surface"
+    },
+    "chart.gridline": {
+      "$value": "#24405f",
+      "$type": "color",
+      "$description": "Dark-mode recessive chart gridline.",
+      "cssVariable": "--chart-gridline"
+    },
+    "chart.axis": {
+      "$value": "#375b7e",
+      "$type": "color",
+      "$description": "Dark-mode recessive chart axis.",
+      "cssVariable": "--chart-axis"
+    },
+    "chart.ink": {
+      "$value": "#e7edf3",
+      "$type": "color",
+      "$description": "Dark-mode chart label ink.",
+      "cssVariable": "--chart-ink"
+    },
+    "chart.ink-muted": {
+      "$value": "#9fb2c4",
+      "$type": "color",
+      "$description": "Dark-mode muted chart label ink.",
+      "cssVariable": "--chart-ink-muted"
+    },
+    "midas.cat.1": {
+      "$value": "#5187be",
+      "$type": "color",
+      "$description": "Dark-mode categorical slot 1 override for navy surfaces.",
+      "cssVariable": "--midas-cat-1"
+    },
+    "midas.cat.other": {
+      "$value": "#8a97a5",
+      "$type": "color",
+      "$description": "Dark-mode categorical fallback override for navy surfaces.",
+      "cssVariable": "--midas-cat-other"
+    },
+    "shadow.sm": {
+      "$value": "0 1px 2px rgba(0,0,0,0.35), 0 1px 3px rgba(0,0,0,0.35)",
+      "$type": "shadow",
+      "$description": "Dark-mode small elevation shadow.",
+      "cssVariable": "--shadow-sm"
+    },
+    "shadow.md": {
+      "$value": "0 2px 6px rgba(0,0,0,0.45), 0 6px 16px rgba(0,0,0,0.45)",
+      "$type": "shadow",
+      "$description": "Dark-mode medium elevation shadow.",
+      "cssVariable": "--shadow-md"
+    }
+  },
+  "contrast": {
+    "gatedTextPairs": [
+      {
+        "name": "text/bg",
+        "foreground": "color.text",
+        "background": "color.bg",
+        "threshold": 4.5
+      },
+      {
+        "name": "text/surface",
+        "foreground": "color.text",
+        "background": "color.surface",
+        "threshold": 4.5
+      },
+      {
+        "name": "text/surface-alt",
+        "foreground": "color.text",
+        "background": "color.surface-alt",
+        "threshold": 4.5
+      },
+      {
+        "name": "text-muted/bg",
+        "foreground": "color.text-muted",
+        "background": "color.bg",
+        "threshold": 4.5
+      },
+      {
+        "name": "text-muted/surface",
+        "foreground": "color.text-muted",
+        "background": "color.surface",
+        "threshold": 4.5
+      },
+      {
+        "name": "link/surface",
+        "foreground": "color.link",
+        "background": "color.surface",
+        "threshold": 4.5
+      },
+      {
+        "name": "primary-contrast/primary",
+        "foreground": "color.primary-contrast",
+        "background": "color.primary",
+        "threshold": 4.5
+      },
+      {
+        "name": "danger-text/danger-bg",
+        "foreground": "color.danger-text",
+        "background": "color.danger-bg",
+        "threshold": 4.5
+      },
+      {
+        "name": "warning-text/warning-bg",
+        "foreground": "color.warning-text",
+        "background": "color.warning-bg",
+        "threshold": 4.5
+      },
+      {
+        "name": "success-text/success-bg",
+        "foreground": "color.success-text",
+        "background": "color.success-bg",
+        "threshold": 4.5
+      },
+      {
+        "name": "info-text/info-bg",
+        "foreground": "color.info-text",
+        "background": "color.info-bg",
+        "threshold": 4.5
+      }
+    ],
+    "gatedUiPairs": [
+      {
+        "name": "focus-ring/surface",
+        "foreground": "color.focus-ring",
+        "background": "color.surface",
+        "threshold": 3
+      },
+      {
+        "name": "focus-ring/bg",
+        "foreground": "color.focus-ring",
+        "background": "color.bg",
+        "threshold": 3
+      },
+      {
+        "name": "header-accent/surface",
+        "foreground": "color.header-accent",
+        "background": "color.surface",
+        "threshold": 3
+      },
+      {
+        "name": "border-strong/surface",
+        "foreground": "color.border-strong",
+        "background": "color.surface",
+        "threshold": 3
+      }
+    ],
+    "intentionalExemptions": [
+      {
+        "name": "border/surface",
+        "foreground": "color.border",
+        "background": "color.surface",
+        "reason": "Decorative dividers, recessive chart furniture, and categorical fills are not numeric contrast gates; pair colour with labels or patterns."
+      },
+      {
+        "name": "chart-gridline/surface",
+        "foreground": "chart.gridline",
+        "background": "chart.surface",
+        "reason": "Decorative dividers, recessive chart furniture, and categorical fills are not numeric contrast gates; pair colour with labels or patterns."
+      },
+      {
+        "name": "chart-axis/surface",
+        "foreground": "chart.axis",
+        "background": "chart.surface",
+        "reason": "Decorative dividers, recessive chart furniture, and categorical fills are not numeric contrast gates; pair colour with labels or patterns."
+      },
+      {
+        "name": "categorical fills/surface",
+        "foreground": "midas.cat.1",
+        "background": "chart.surface",
+        "reason": "Decorative dividers, recessive chart furniture, and categorical fills are not numeric contrast gates; pair colour with labels or patterns."
+      }
+    ]
+  }
+}
