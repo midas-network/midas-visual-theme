@@ -33,9 +33,8 @@ function formatCss() {
       .map((line) => `  ${line}`)
       .join("\n"),
     "  }",
-    "}",
-    ""
-  ].join("\n\n");
+    "}"
+  ].join("\n\n") + "\n";
 }
 
 function formatScss() {

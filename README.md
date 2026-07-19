@@ -4,6 +4,11 @@ MIDAS Visual Theme is the shared design-token package for MIDAS visual applicati
 
 The package name is `@midasnetwork/tokens`. If that npm scope is unavailable at publish time, publish as `midas-design-tokens` and update the install examples.
 
+The MIDAS Discover deploy repository also consumes this repository as a git
+submodule. Its `scripts/sync-theme.sh` build step copies
+`dist/midas-theme.css` into the static frontend projects, so generated `dist/`
+artifacts are part of this repository's committed interface.
+
 ## Install
 
 ```bash
