@@ -9,7 +9,7 @@
     "node": ">=20 <25"
   },
   "scripts": {
-    "build": "style-dictionary build --config config/style-dictionary.config.js && npm run test:contrast",
+    "build": "style-dictionary build --config config/style-dictionary.config.js && node scripts/build-controller.mjs && npm run test:contrast",
     "docs": "node scripts/build-docs.mjs",
     "test:contrast": "node scripts/contrast.mjs",
     "prepare:site": "npm run build && npm run docs"
@@ -20,6 +20,7 @@
       "default": "./dist/tokens.ts"
     },
     "./css": "./dist/midas-theme.css",
+    "./theme-controller": "./dist/theme-controller.js",
     "./scss": "./dist/midas-theme.scss",
     "./mui": "./dist/mui-theme.ts",
     "./tokens": "./dist/tokens.resolved.json"

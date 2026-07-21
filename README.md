@@ -28,6 +28,28 @@ CSS custom properties:
 }
 ```
 
+Persisted System/Light/Dark preference controller:
+
+```html
+<script src="/path/to/theme-controller.js"></script>
+<label for="theme-select">Theme</label>
+<select id="theme-select" data-theme-selector>
+  <option value="system">System</option>
+  <option value="light">Light</option>
+  <option value="dark">Dark</option>
+</select>
+```
+
+Bundled applications can import the controller for its browser-side effect:
+
+```js
+import "@midasnetwork/tokens/theme-controller";
+```
+
+The controller stores the preference as `midas-theme-preference`, sets
+`data-theme` for explicit modes, and keeps `data-bs-theme` synchronized with
+the resolved mode for Bootstrap-compatible components.
+
 SCSS variables and dark-mode mixin:
 
 ```scss
@@ -89,6 +111,7 @@ Some visual tokens are intentionally recessive and are not numeric contrast gate
 ## Generated Artifacts
 
 - `dist/midas-theme.css`
+- `dist/theme-controller.js`
 - `dist/midas-theme.scss`
 - `dist/tokens.ts`
 - `dist/mui-theme.ts`
